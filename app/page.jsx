@@ -12,6 +12,7 @@ import ServicesSection from "../components/ServicesSection";
 import BenefitsSection from "../components/BenefitsSection";
 import FinalSection from "../components/FinalSection";
 import Footer from "../components/Footer";
+import WarningAlert from "../components/WarningAlert";
 
 const EarthScene = dynamic(() => import("../components/EarthScene"), {
   ssr: false,
@@ -40,6 +41,7 @@ export default function Home() {
   return (
     <main ref={containerRef} className="relative w-full min-h-[200vh] bg-black">
       <NavBar />
+      <WarningAlert />
       
       <motion.div
         className="fixed inset-0 z-0 pointer-events-none"

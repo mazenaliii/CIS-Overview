@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "CIS",
+  title: "CIS - Climate Integration Stations",
   description: "A Global Solution for Seasonal Balance",
 };
 
