@@ -1,4 +1,4 @@
-# CIS – Climate Integration Stations (Frontend)
+# CIS – Climate Integration Stations (Built for Nasa Space Apps Competition)
 
 Production-grade Next.js app showcasing CIS with animated hero, sections, and an interactive simulation page.
 
