@@ -44,6 +44,7 @@ export default function NavBar() {
           <a href="#case-studies" onClick={(e) => smoothAnchor(e, "#case-studies")} className="hover:text-white/90 text-white/80">CASE STUDIES</a>
           <a href="#benefits" onClick={(e) => smoothAnchor(e, "#benefits")} className="hover:text-white/90 text-white/80">BENEFITS</a>
           <a href="#demo" onClick={(e) => smoothAnchor(e, "#demo")} className="hover:text-white/90 text-white/80">DEMO</a>
+          <Link href="/simulation" className="hover:text-white/90 text-white/80">SIMULATION</Link>
         </nav>
 
         <button
@@ -61,7 +62,7 @@ export default function NavBar() {
         id="mobile-menu"
         className={`md:hidden transition-[max-height,opacity] duration-300 ease-out overflow-hidden mx-auto w-[92vw] max-w-[900px] ${open ? "max-h-[70vh] opacity-100" : "max-h-0 opacity-0"}`}
       >
-        <div className="mt-2 rounded-2xl bg-white/6 backdrop-blur-md border border-white/15 text-white p-4 shadow-[0_8px_30px_rgba(0,0,0,0.35)] overflow-y-auto max-h-[68vh]">
+        <div className="mt-2 rounded-2xl bg-white/6 backdrop-blur-md border border-white/15 text-white p-4 shadow-[0_8px_30px_RGBA(0,0,0,0.35)] overflow-y-auto max-h-[68vh]">
           <a href="#" onClick={(e) => smoothAnchor(e, "body")} className="block px-2 py-2 text-sm hover:text-white">HOME</a>
           <a href="#problem" onClick={(e) => smoothAnchor(e, "#problem")} className="block px-2 py-2 text-sm hover:text-white">PROBLEM</a>
           <a href="#mission" onClick={(e) => smoothAnchor(e, "#mission")} className="block px-2 py-2 text-sm hover:text-white">MISSION</a>
@@ -69,6 +70,7 @@ export default function NavBar() {
           <a href="#case-studies" onClick={(e) => smoothAnchor(e, "#case-studies")} className="block px-2 py-2 text-sm hover:text-white">CASE STUDIES</a>
           <a href="#benefits" onClick={(e) => smoothAnchor(e, "#benefits")} className="block px-2 py-2 text-sm hover:text-white">BENEFITS</a>
           <a href="#demo" onClick={(e) => smoothAnchor(e, "#demo")} className="block px-2 py-2 text-sm hover:text-white">DEMO</a>
+          <Link href="/simulation" onClick={() => setOpen(false)} className="block px-2 py-2 text-sm hover:text-white">SIMULATION</Link>
         </div>
       </div>
     </div>

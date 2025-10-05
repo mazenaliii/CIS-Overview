@@ -3,15 +3,15 @@
 import { useMemo, useState } from "react";
 
 const TITLES = [
-  // Weather warnings
+
   "⚠ Warning: Sudden Weather Change Detected!",
   "🌧 Heavy Rain Expected in the Coming Hours.",
   "🌪 Severe Storm Approaching!",
-  // Drone-related warnings
+
   "⚠ Alert: High Drone Activity in the Area.",
   "🚧 Warning: Possible Drone Malfunction Due to Strong Winds.",
   "🛑 Temporary Drone System Error.",
-  // Environmental / Chemical warnings
+
   "☢ Alert: Increased Gas Concentration in the Air.",
   "🧪 Warning: Sudden Rise in Air Pollutants Detected.",
   "⚠ Possible Chemical Leak Near the Station."
