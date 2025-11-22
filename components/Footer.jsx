@@ -1,5 +1,3 @@
-"use client";
-
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub, FaXTwitter, FaGlobe } from "react-icons/fa6";
 
